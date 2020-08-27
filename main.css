@@ -1,0 +1,98 @@
+* {
+  font-family: sans-serif;
+  color: rgb(218, 217, 217);
+  font-size: 8%;
+}
+
+input,
+label,
+select {
+  display: block;
+}
+
+form {
+  height: 25%;
+  position: relative;
+}
+
+.getIt {
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  justify-content: center;
+}
+
+input {
+  height: 40%;
+  width: 98%;
+  position: absolute;
+}
+
+select {
+  border-radius: 5px;
+  height: 25%;
+  width: 100%;
+  align-self: center;
+}
+
+textarea {
+  height: 90%;
+  width: 98%;
+}
+
+input:hover {
+  color: rgb(1, 1, 121);
+}
+
+input,
+textarea,
+select {
+  border: 2px solid rgb(218, 217, 217);
+  background-color: rgb(90, 158, 214);
+  border-radius: 2px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid gray;
+  position: relative;
+  height: 500px;
+  background-color: rgb(90, 158, 214);
+  padding-bottom: 10%;
+}
+
+.col1,
+.col2,
+.col3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  flex: 1;
+  position: relative;
+  margin: 2%;
+  height: 98%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.order1 {
+  order: 1;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3 {
+  order: 3;
+}
+
+.order4 {
+  order: 4;
+}
+
+.order-1 {
+  order: -1;
+}
